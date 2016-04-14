@@ -33,7 +33,7 @@ private static Logger logger = LoggerFactory.getLogger(MongoDBInterpreter.class)
 
   private static final String HELP = "MongoDB interpreter:\n"
     + "General format: <command> /<db>/<collection> <option> <JSON>\n"
-    + "  - find /db/collection/id\n";
+    + "  - find /db/collection \n";
 
   private static final List<String> COMMANDS = Arrays.asList(
     "find");
